@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="stem" x1="52" y1="32" x2="96" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B20710"/>
+      <stop offset="0.52" stop-color="#850008"/>
+      <stop offset="1" stop-color="#B20710"/>
+    </linearGradient>
+    <linearGradient id="top" x1="74" y1="32" x2="204" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6121D"/>
+      <stop offset="1" stop-color="#E50914"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="96" y1="128" x2="204" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C90812"/>
+      <stop offset="0.3" stop-color="#F6121D"/>
+      <stop offset="1" stop-color="#E50914"/>
+    </linearGradient>
+  </defs>
+  <path d="M52 32H96V222C80 224 65 226 52 230V32Z" fill="url(#stem)"/>
+  <path d="M52 32L96 76V91L52 47V32Z" fill="#000" fill-opacity="0.3"/>
+  <path d="M52 32H204V76H96L52 32Z" fill="url(#top)"/>
+  <path d="M96 107H180V149H96V107Z" fill="url(#arm)"/>
+  <path d="M96 107L110 121V149H96V107Z" fill="#000" fill-opacity="0.16"/>
+  <path d="M96 180H204V222C168 217 132 217 96 222V180Z" fill="url(#arm)"/>
+  <path d="M96 180L110 194V220L96 222V180Z" fill="#000" fill-opacity="0.16"/>
+</svg>
